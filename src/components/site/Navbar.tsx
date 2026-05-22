@@ -3,12 +3,21 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Waves } from "lucide-react";
 
 const links = [
+<<<<<<< HEAD
   { href: "#home", label: "الرئيسية" },
   { href: "#programs", label: "البرامج" },
   { href: "#coaches", label: "المدربون" },
   { href: "#schedule", label: "الجدول" },
   { href: "#testimonials", label: "آراء العملاء" },
   { href: "#contact", label: "اتصل بنا" },
+=======
+  { href: "#home", label: "Home" },
+  { href: "#programs", label: "Programs" },
+  { href: "#coaches", label: "Coaches" },
+  { href: "#schedule", label: "Schedule" },
+  { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
 ];
 
 export function Navbar() {
@@ -57,7 +66,11 @@ export function Navbar() {
           href="#contact"
           className="hidden rounded-full bg-coral px-5 py-2.5 text-sm font-semibold text-white shadow-soft transition hover:scale-105 hover:shadow-glow lg:inline-flex"
         >
+<<<<<<< HEAD
           انضم الآن
+=======
+          Join Now
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         </a>
 
         <button
@@ -95,7 +108,11 @@ export function Navbar() {
                 onClick={() => setOpen(false)}
                 className="mt-2 rounded-full bg-coral px-5 py-3 text-center text-sm font-semibold text-white"
               >
+<<<<<<< HEAD
                 انضم الآن
+=======
+                Join Now
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
               </a>
             </ul>
           </motion.div>

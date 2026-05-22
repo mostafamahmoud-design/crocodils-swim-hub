@@ -3,10 +3,17 @@ import { ChevronRight, Play, Trophy, Users, ShieldCheck, Droplets } from "lucide
 import heroImg from "@/assets/hero-swimmer.jpg";
 
 const stats = [
+<<<<<<< HEAD
   { icon: Users, value: "500+", label: "طلاب مدرَّبون" },
   { icon: Trophy, value: "محترفون", label: "مدربون معتمدون" },
   { icon: ShieldCheck, value: "أولمبي", label: "تدريب بمعايير" },
   { icon: Droplets, value: "مغلق", label: "مسابح مدفأة" },
+=======
+  { icon: Users, value: "500+", label: "Students Trained" },
+  { icon: Trophy, value: "Certified", label: "Pro Coaches" },
+  { icon: ShieldCheck, value: "Olympic", label: "Standard Training" },
+  { icon: Droplets, value: "Indoor", label: "Heated Pools" },
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
 ];
 
 export function Hero() {
@@ -59,7 +66,12 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="max-w-4xl text-balance text-5xl font-bold leading-[1.05] text-white sm:text-6xl lg:text-7xl"
         >
+<<<<<<< HEAD
           تدرّب مثل البطل في أكاديمية <span className="gradient-text">Crocodils</span> للسباحة
+=======
+          Train Like a Champion at{" "}
+          <span className="gradient-text">Crocodils</span> Swimming Academy
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         </motion.h1>
 
         <motion.p
@@ -68,7 +80,12 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.25 }}
           className="mt-6 max-w-2xl text-lg text-white/85 sm:text-xl"
         >
+<<<<<<< HEAD
           تدريب سباحة احترافي للأطفال والمبتدئين والرياضيين التنافسيين — بإشراف مدربين عالميين في مسابح بمعايير أولمبية.
+=======
+          Professional swimming coaching for kids, beginners, and competitive
+          athletes — guided by world-class coaches in Olympic-standard pools.
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         </motion.p>
 
         <motion.div
@@ -81,7 +98,11 @@ export function Hero() {
             href="#contact"
             className="group inline-flex items-center gap-2 rounded-full bg-coral px-7 py-4 text-sm font-semibold text-white shadow-glow transition hover:scale-[1.03] animate-pulse-ring"
           >
+<<<<<<< HEAD
             احجز تجربة مجانية
+=======
+            Book a Free Trial
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
             <ChevronRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
           </a>
           <a
@@ -89,7 +110,11 @@ export function Hero() {
             className="group inline-flex items-center gap-2 rounded-full glass px-7 py-4 text-sm font-semibold text-white hover:bg-white/20"
           >
             <Play className="h-4 w-4" />
+<<<<<<< HEAD
             عرض البرامج
+=======
+            View Programs
+>>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
           </a>
         </motion.div>
 
