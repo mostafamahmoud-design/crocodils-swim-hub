@@ -25,15 +25,9 @@ export function Gallery() {
     <section className="relative bg-foam py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
-<<<<<<< HEAD
           eyebrow="المعرض"
           title="لحظات من حافة المسبح"
           subtitle="طلاب حقيقيون. تدريب حقيقي. تقدم حقيقي."
-=======
-          eyebrow="Gallery"
-          title="Moments From the Pool Deck"
-          subtitle="Real students. Real training. Real progress."
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         />
 
         <div className="mt-14 columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4">
@@ -66,11 +60,7 @@ export function Gallery() {
           >
             <button
               aria-label="Close gallery"
-<<<<<<< HEAD
               className="absolute left-6 top-6 grid h-10 w-10 place-items-center rounded-full glass text-white"
-=======
-              className="absolute right-6 top-6 grid h-10 w-10 place-items-center rounded-full glass text-white"
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
             >
               <X className="h-5 w-5" />
             </button>

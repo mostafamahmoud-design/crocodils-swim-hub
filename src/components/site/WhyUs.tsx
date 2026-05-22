@@ -2,21 +2,12 @@ import { Reveal, SectionHeader } from "./Reveal";
 import { BadgeCheck, Building2, ShieldCheck, Users, CalendarClock, Globe2 } from "lucide-react";
 
 const features = [
-<<<<<<< HEAD
   { icon: BadgeCheck, title: "مدربون معتمدون", desc: "محترفون معتمدون من FINA وASCA ومنقذون معتمدون." },
   { icon: Building2, title: "مرافق حديثة", desc: "مسابح داخلية مدفأة، مناطق تعافي، وتحليل فيديو." },
   { icon: ShieldCheck, title: "بيئة آمنة", desc: "منقذون حاضرون دائماً. معايير نظافة صارمة." },
   { icon: Users, title: "مجموعات صغيرة", desc: "كحد أقصى 6 طلاب لكل مدرب — اهتمام حقيقي وتقدم ملموس." },
   { icon: CalendarClock, title: "جدول مرن", desc: "فترات صباحية ومسائية وعطلات تناسب العائلات." },
   { icon: Globe2, title: "معايير عالمية", desc: "منهج متوافق مع اتحادات السباحة العالمية." },
-=======
-  { icon: BadgeCheck, title: "Certified Coaches", desc: "FINA, ASCA & lifeguard certified professionals." },
-  { icon: Building2, title: "Modern Facilities", desc: "Heated indoor pools, recovery areas, video analysis." },
-  { icon: ShieldCheck, title: "Safe Environment", desc: "Lifeguards always on deck. Strict hygiene standards." },
-  { icon: Users, title: "Small Group Sizes", desc: "Max 6 per coach — real attention, real progress." },
-  { icon: CalendarClock, title: "Flexible Scheduling", desc: "Morning, evening, and weekend slots that fit families." },
-  { icon: Globe2, title: "International Standards", desc: "Curriculum aligned with global swimming federations." },
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
 ];
 
 export function WhyUs() {
@@ -24,13 +15,8 @@ export function WhyUs() {
     <section className="relative bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
-<<<<<<< HEAD
           eyebrow="لماذا Crocodils"
           title="أكاديمية يثق بها الآباء والرياضيون"
-=======
-          eyebrow="Why Crocodils"
-          title="An Academy Parents & Athletes Trust"
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

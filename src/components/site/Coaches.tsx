@@ -5,15 +5,9 @@ import c2 from "@/assets/coach-2.jpg";
 import c3 from "@/assets/coach-3.jpg";
 
 const coaches = [
-<<<<<<< HEAD
   { img: c1, name: "Marco Silva", role: "المدير الفني", exp: "15+ عامًا", certs: "معتمد FINA مستوى 3 · مدرب أولمبي" },
   { img: c2, name: "Sara Mitchell", role: "مديرة برامج الأطفال والنساء", exp: "10+ سنوات", certs: "معتمدة ASCA · إنقاذ محترفة" },
   { img: c3, name: "Daniel Ortega", role: "مدرب الأداء", exp: "12+ عامًا", certs: "ماجستير علوم الرياضة · قوة وتكيّف" },
-=======
-  { img: c1, name: "Marco Silva", role: "Head Coach", exp: "15+ years", certs: "FINA Level 3 · Olympic Trainer" },
-  { img: c2, name: "Sara Mitchell", role: "Kids & Women's Lead", exp: "10+ years", certs: "ASCA Certified · Lifeguard Pro" },
-  { img: c3, name: "Daniel Ortega", role: "Performance Coach", exp: "12+ years", certs: "Sports Science MSc · S&C" },
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
 ];
 
 export function Coaches() {
@@ -21,15 +15,9 @@ export function Coaches() {
     <section id="coaches" className="relative bg-foam py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
-<<<<<<< HEAD
           eyebrow="التعرّف على المدربين"
           title="خبراء عالميون. رعاية حقيقية."
           subtitle="يجمع مدربونا بين الخبرة القوية والشغف في رعاية كل سباح."
-=======
-          eyebrow="Meet the Coaches"
-          title="World-Class Mentors. Genuine Care."
-          subtitle="Our coaches combine elite experience with a passion for nurturing every swimmer."
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         />
 
         <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

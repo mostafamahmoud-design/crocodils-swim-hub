@@ -7,11 +7,7 @@ export function ScrollProgress() {
   return (
     <motion.div
       style={{ scaleX: scrollYProgress }}
-<<<<<<< HEAD
       className="fixed left-0 right-0 top-0 z-[70] h-1 origin-right bg-gradient-to-r from-aqua to-coral"
-=======
-      className="fixed left-0 right-0 top-0 z-[70] h-1 origin-left bg-gradient-to-r from-aqua to-coral"
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
     />
   );
 }
@@ -38,19 +34,11 @@ export function FloatingUI() {
           href="#contact"
           className="block w-full rounded-full bg-coral py-3 text-center text-sm font-semibold text-white shadow-soft"
         >
-<<<<<<< HEAD
           احجز تجربة مجانية
         </a>
       </div>
 
       <div className="fixed bottom-20 left-4 z-50 flex flex-col gap-3 lg:bottom-6">
-=======
-          Book a Free Trial
-        </a>
-      </div>
-
-      <div className="fixed bottom-20 right-4 z-50 flex flex-col gap-3 lg:bottom-6">
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         <button
           onClick={() => setDark((v) => !v)}
           aria-label="Toggle dark mode"
@@ -60,11 +48,7 @@ export function FloatingUI() {
         </button>
 
         <a
-<<<<<<< HEAD
           href="https://wa.me/966538962214"
-=======
-          href="https://wa.me/15551234567"
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"

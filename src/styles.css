@@ -99,19 +99,13 @@
 @layer base {
   * { border-color: var(--color-border); }
   html { scroll-behavior: smooth; }
-<<<<<<< HEAD
   html[dir="rtl"], html[lang="ar"] { direction: rtl; }
-=======
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
     -webkit-font-smoothing: antialiased;
-<<<<<<< HEAD
     text-align: right;
-=======
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
   }
   h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: -0.02em; }
 }

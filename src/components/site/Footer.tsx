@@ -13,11 +13,7 @@ export function Footer() {
               Crocodils
             </div>
             <p className="mt-4 text-sm text-white/75">
-<<<<<<< HEAD
               أكاديمية سباحة بمعايير أولمبية للأطفال والكبار والرياضيين التنافسيين.
-=======
-              Olympic-standard swimming academy for kids, adults, and competitive athletes.
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
             </p>
             <div className="mt-5 flex gap-2">
               {[Instagram, Facebook, Youtube, Twitter].map((I, i) => (
@@ -52,13 +48,8 @@ export function Footer() {
           </div>
 
           <div>
-<<<<<<< HEAD
             <h4 className="text-sm font-semibold uppercase tracking-widest text-aqua">النشرة</h4>
             <p className="mt-4 text-sm text-white/75">نصائح سباحة، تحديثات الجدول، وعروض الأعضاء المميزة.</p>
-=======
-            <h4 className="text-sm font-semibold uppercase tracking-widest text-aqua">Newsletter</h4>
-            <p className="mt-4 text-sm text-white/75">Swim tips, schedule updates and early-bird offers.</p>
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
             <form
               onSubmit={(e) => e.preventDefault()}
               className="mt-4 flex overflow-hidden rounded-full bg-white/10 p-1"
@@ -66,30 +57,18 @@ export function Footer() {
               <input
                 type="email"
                 required
-<<<<<<< HEAD
                 placeholder="بريدك الإلكتروني"
                 className="flex-1 bg-transparent px-4 py-2 text-sm text-white placeholder:text-white/50 outline-none"
               />
               <button className="rounded-full bg-coral px-4 py-2 text-sm font-semibold text-white hover:scale-105 transition">
                 اشترك
-=======
-                placeholder="Your email"
-                className="flex-1 bg-transparent px-4 py-2 text-sm text-white placeholder:text-white/50 outline-none"
-              />
-              <button className="rounded-full bg-coral px-4 py-2 text-sm font-semibold text-white hover:scale-105 transition">
-                Subscribe
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
               </button>
             </form>
           </div>
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-6 text-center text-xs text-white/60">
-<<<<<<< HEAD
           © {new Date().getFullYear()} أكاديمية Crocodils للسباحة. جميع الحقوق محفوظة.
-=======
-          © {new Date().getFullYear()} Crocodils Swimming Academy. All rights reserved.
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         </div>
       </div>
     </footer>

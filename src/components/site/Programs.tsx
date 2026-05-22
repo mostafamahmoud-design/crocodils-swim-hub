@@ -10,21 +10,12 @@ import {
 } from "lucide-react";
 
 const programs = [
-<<<<<<< HEAD
   { icon: Baby, title: "دروس سباحة للأطفال", desc: "تقدّم ممتعة ومنظمة للأعمار من 4 إلى 12 سنة مع التركيز على السلامة في الماء." },
   { icon: User, title: "دروس سباحة للكبار", desc: "مناسبة للمبتدئين وحتى تحسين الأسلوب. تبني الثقة والقوة." },
   { icon: Trophy, title: "تدريب تنافسي", desc: "تقنيات سباق، انطلاقات، دوران، والتحضير للبطولات للرياضيين المتميزين." },
   { icon: Sparkles, title: "دروس للنساء فقط", desc: "جلسات خاصة ومريحة مع مدربات معتمدات." },
   { icon: UserCheck, title: "تدريب خاص", desc: "برامج فردية موزعة لتسريع التقدم القابل للقياس." },
   { icon: Activity, title: "لياقة مائية", desc: "تمارين منخفضة التأثير وفعّالة للمقاومة والتعافي." },
-=======
-  { icon: Baby, title: "Kids Swimming Classes", desc: "Playful, structured progression for ages 4–12 with water-safety first." },
-  { icon: User, title: "Adult Swimming Lessons", desc: "Beginner-friendly to stroke refinement. Build confidence and stamina." },
-  { icon: Trophy, title: "Competitive Training", desc: "Race technique, starts, turns, and meet preparation for elite athletes." },
-  { icon: Sparkles, title: "Female-Only Classes", desc: "Private, comfortable sessions with certified female coaches." },
-  { icon: UserCheck, title: "Private Coaching", desc: "1-on-1 personalized programs accelerating measurable progress." },
-  { icon: Activity, title: "Aqua Fitness", desc: "Low-impact, high-result group workouts for strength & recovery." },
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
 ];
 
 export function Programs() {
@@ -32,15 +23,9 @@ export function Programs() {
     <section id="programs" className="relative bg-foam py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
-<<<<<<< HEAD
           eyebrow="البرامج"
           title="برنامج لكل سباح"
           subtitle="من أول غطسة إلى منصة التتويج — اعثر على المسار المناسب لهدفك."
-=======
-          eyebrow="Programs"
-          title="A Program for Every Swimmer"
-          subtitle="From first splash to podium finish — find the right lane for your goals."
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         />
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

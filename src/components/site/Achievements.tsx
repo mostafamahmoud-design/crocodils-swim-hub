@@ -31,17 +31,10 @@ function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
 }
 
 const stats = [
-<<<<<<< HEAD
   { value: 120, suffix: "+", label: "بطولات مُحرَزة" },
   { value: 850, suffix: "+", label: "طلاب نشطون" },
   { value: 24, suffix: "", label: "مدربون معتمدون" },
   { value: 15, suffix: "+", label: "سنوات خبرة" },
-=======
-  { value: 120, suffix: "+", label: "Championships Won" },
-  { value: 850, suffix: "+", label: "Active Students" },
-  { value: 24, suffix: "", label: "Certified Trainers" },
-  { value: 15, suffix: "+", label: "Years of Experience" },
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
 ];
 
 export function Achievements() {
@@ -49,13 +42,8 @@ export function Achievements() {
     <section className="relative bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
-<<<<<<< HEAD
           eyebrow="الإنجازات"
           title="أرقام تترك أثراً"
-=======
-          eyebrow="Achievements"
-          title="Numbers That Make a Splash"
->>>>>>> 4a37b529fd38af1dcbf40bac0334003c9de6eb02
         />
         <div className="mt-14 grid grid-cols-2 gap-4 lg:grid-cols-4">
           {stats.map((s, i) => (
